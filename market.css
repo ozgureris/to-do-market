@@ -108,3 +108,15 @@ h1{
 .fade{
     opacity: 0;
 }
+
+@media (max-width: 1024px){
+    .input-item{
+        width: 90%;
+    }
+    .btn-add{
+        right: 5%;
+    }
+    .task-container{
+        width: 90%;
+    }
+}
