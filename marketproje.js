@@ -20,14 +20,11 @@ function taskDeleteComplete(e){
     }
     else if(tiklananBtn.classList.contains('btn-delete')){
 
-        if(confirm('Are you sure you want to delete the product?')){
-
         tiklananBtn.parentElement.classList.toggle('fade');
         
         tiklananBtn.parentElement.addEventListener('transitionend', function(){
             tiklananBtn.parentElement.remove();
         });
-        }
     }
 }
 
